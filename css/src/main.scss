@@ -108,6 +108,10 @@ header {
 // padding
 .pad {
 	padding: 20px;
+
+	@include respond-to( 768px ) {
+		padding: 25px 40px;
+	}
 }
 
 
