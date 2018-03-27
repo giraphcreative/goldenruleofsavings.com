@@ -1,0 +1,39 @@
+
+// include our fonts
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,400,700);
+
+
+@font-face {
+    font-family: 'Bartender';
+    src: url('fonts/bartender.woff2') format('woff2'),
+        url('fonts/bartender.woff') format('woff'),
+        url('fonts/bartender.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@mixin font-title {
+	font-family: "Bartender", sans-serif;
+}
+
+@mixin font {
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+}
+
+@mixin font-bold {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+}
+
+@mixin font-italic {
+	font-family: "Open Sans", sans-serif;
+	font-style: italic;
+}
+
+@mixin font-bold-italic {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
